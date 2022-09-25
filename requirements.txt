@@ -1,0 +1,11 @@
+awscli
+
+boto3
+
+pytest
+
+pylint
+
+jupyter
+
+pandas
