@@ -11,3 +11,10 @@ alias cwp="cd ~/cloud_weather_predictions/cloud_weather_predictions && source ~/
 ```
 Don't forget to restart your shell or run the command `source ~/.zshrc` so you can use this alias
 You can leave the venv session with the command `deactivate`
+
+* `make intall` will install the _python_ libraries from requirements.txt via pip
+
+## GCloud
+* bigquery: https://github.com/googleapis/python-bigquery
+
+## AWS

@@ -9,3 +9,5 @@ pylint
 jupyter
 
 pandas
+
+google-cloud-bigquery
