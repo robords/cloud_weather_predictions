@@ -4,6 +4,8 @@ boto3
 
 pytest
 
+pytest-cov
+
 pylint
 
 jupyter
@@ -11,3 +13,5 @@ jupyter
 pandas
 
 google-cloud-bigquery
+
+nbval
