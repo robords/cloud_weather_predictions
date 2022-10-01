@@ -12,10 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-runtime: python39
+runtime: custom
+env: flex
+service: docker_version
 api_version: 1
 threadsafe: true
-service: default
 
 handlers:
   - url: /.*

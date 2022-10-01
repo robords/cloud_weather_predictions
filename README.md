@@ -14,6 +14,17 @@ You can leave the venv session with the command `deactivate`
 
 * `make intall` will install the _python_ libraries from requirements.txt via pip
 
+## Docker
+test on local host
+`docker build docker_app`
+`docker image`
+`docker image ls`
+`docker run -d -p 8080:8080 6253`
+`docker ps  --format "table {{.ID}}\t{{.Status}}"`
+`curl localhost:8080`
+
+Where 6253 is the image ID from `docker image ls`
+
 ## GCloud
 * bigquery: https://github.com/googleapis/python-bigquery
 
