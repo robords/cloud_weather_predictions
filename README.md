@@ -27,5 +27,18 @@ Where 6253 is the image ID from `docker image ls`
      
 ## GCloud
 * bigquery: https://github.com/googleapis/python-bigquery
+* App Engine: 
+  * Create the project:
+`gcloud config set project msds-434-robords`
+  * After creating the project, make sure to enable the API: https://cloud.google.com/appengine/docs/standard/python3/building-app/creating-gcp-project
+  * Deploy it with: `gcloud app deploy`
+  * Help `gcloud app -h`
 
 ## AWS
+* Elastic Beanstalk:
+  * https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
+  * Initialize: `eb init`
+  * Create: `eb create hello-world`
+  * Open: `eb open`
+  * Help: `eb -h`
+
