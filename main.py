@@ -4,7 +4,7 @@ import hello
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return hello.hello()
+    return hello.hello('GCP App Engine')
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App

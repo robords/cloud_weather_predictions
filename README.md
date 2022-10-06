@@ -39,6 +39,7 @@ Where 6253 is the image ID from `docker image ls`
   * https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
   * Initialize: `eb init`
   * Create: `eb create hello-world`
+  * Change the default environment: `eb use hello-world`
   * Open: `eb open`
   * Help: `eb -h`
 

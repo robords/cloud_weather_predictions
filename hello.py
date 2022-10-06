@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import plotly
 
-def hello():
+def hello(environment):
     """Return a friendly HTTP greeting."""
 
     df = pd.read_csv('2014_world_gdp_with_codes.csv')
@@ -23,7 +23,7 @@ def hello():
     ))
 
     fig.update_layout(
-        title_text='2014 Global GDP',
+        title_text=f'2014 Global GDP on {environment}',
         geo=dict(
             showframe=False,
             showcoastlines=False,
