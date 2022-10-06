@@ -1,4 +1,0 @@
-pytest-cov
-pylint
-pytest==7.0.1
-nbval
