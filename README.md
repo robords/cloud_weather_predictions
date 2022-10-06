@@ -31,8 +31,12 @@ Where 6253 is the image ID from `docker image ls`
   * Create the project:
 `gcloud config set project msds-434-robords`
   * After creating the project, make sure to enable the API: https://cloud.google.com/appengine/docs/standard/python3/building-app/creating-gcp-project
-  * Deploy it with: `gcloud app deploy`
-  * Help `gcloud app -h`
+  * Deploy (including changes): `gcloud app deploy`
+  * Describe the current app: `gcloud app describe`
+  * Get version: `gcloud app versions list`
+  * Stop: `gcloud app stop version <id>`
+  * Start: `gcloud app versions start <id>`
+  * Help `gcloud app --help`
 
 ## AWS
 * Elastic Beanstalk:
@@ -40,6 +44,7 @@ Where 6253 is the image ID from `docker image ls`
   * Initialize: `eb init`
   * Create: `eb create hello-world`
   * Change the default environment: `eb use hello-world`
+  * Deploy changes: `eb deploy`
   * Open: `eb open`
   * Help: `eb -h`
 
