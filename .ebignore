@@ -1,0 +1,8 @@
+app.yaml
+docker_service
+requirements-test.txt
+main_test.py
+Makefile
+main.py
+.gcloudignore
+.idea
